@@ -1,3 +1,6 @@
+We present a tentative new economics model, *ultra-rationality*, and evaluate its
+relationship with the Prisoner's Dilemma problem.
+
 - [The Prisoner's Dilemma](##dilemma)
 - [Rational solution](##rational)
 - [Hyper-rational solution](##hyperrational)
