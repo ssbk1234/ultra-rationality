@@ -1,0 +1,255 @@
+
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+  <head>
+    
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/jquery-1.10.1.js"></script>
+    <script src="js/d3.v3.js"></script>
+    <script src="js/lodash.js"></script>
+    <script src="js/sidenote.js"></script>
+  </head>
+  <body>
+    <div class="btn-group addRemoveColumn">
+      <button class="btn"><a href="javascript:Sidenote.more()">more columns</a></button>
+      <button class="btn"><a href="javascript:Sidenote.less()">fewer columns</a></button>
+    </div>
+    <div class="headerbox">
+<h1>Ultra Rationality and the Prisoner&#8217;s Dilemma</h1>
+    </div>
+    <ul id="breadcrumbs" class="breadcrumb"></ul>
+    <div id='column-container'>
+      <a href="javascript:Sidenote.goBack()"><img id="left-arrow" class="hide-arrow" src="img/left_arrow.png"></a>
+      <a href="javascript:Sidenote.goForward()"><img id="right-arrow" class="hide-arrow" src="img/right_arrow.png"></a>
+      <div class='column' id="column0"></div>
+    </div>
+    <div class="content-storage">
+<div id='proof3'>
+<h3>Proof of Theorem 3</h3>
+<ul>
+<li>Assume:<ul>
+<li>You are player <em>A</em>, and</li>
+<li>You are ultra-rational</li>
+</ul>
+</li>
+<li>By the Axioms of Subjective Interpration, you choose not to experience any
+  penalty.</li>
+<li>Therefore to seek a globally optimal solution, you optimize your strategy for
+  the other player&#8217;s penalty</li>
+<li>If player <em>B</em> defects, your best strategy is to remain silent. In which case<ul>
+<li>Player <em>B</em> experiences zero years in prison</li>
+<li>You experience three years in prison, but do not interpret it as a penalty</li>
+<li>Thus the total global penalty is zero</li>
+</ul>
+</li>
+<li>If player <em>B</em> remains silent, your best strategy is to remain silent. In which
+  case:<ul>
+<li>Player <em>B</em> experiences one year in prison (which has a maximum subjective
+  penalty of one year in prison)</li>
+<li>You experience one year in prison, but do not interpret it as a penalty</li>
+</ul>
+</li>
+<li>Thus the total maximum global penalty is one year in prison<ul>
+<li>This solution is optimal because player <em>B</em> makes the choice to experience
+  as much or as little penalty as they desire.</li>
+</ul>
+</li>
+</ul>
+</div>
+
+<div id='dilemma'>
+<h2>The Prisoner&#8217;s Dilemma</h2>
+<p>The prisoner&#8217;s dilemma is a fascinating and well-known paradox in economics.
+It illuminates the heart of fundamental problems with our current economic models.</p>
+<p>In the dilemma, two prisoners, <em>A</em> and <em>B</em>, are charged with the same crime and
+offered the same bargain.</p>
+<p>From the <a href="https://en.wikipedia.org/wiki/Prisoner's_dilemma">Wikipedia article</a>:</p>
+<ul>
+<li>If <em>A</em> and <em>B</em> both betray the other, each of them serves 2 years in prison</li>
+<li>If <em>A</em> betrays <em>B</em> but <em>B</em> remains silent, <em>A</em> will be set free and <em>B</em> will serve 3 years in prison (and vice versa)</li>
+<li>
+<p>If <em>A</em> and <em>B</em> both remain silent, both of them will only serve 1 year in prison (on the lesser charge)</p>
+</li>
+<li>
+<p>The <a href="javascript:Sidenote.openColumnLoud('#dilemma','#rational','rational%20solution')">rational solution</a> is to always defect</p>
+</li>
+<li>The <a href="javascript:Sidenote.openColumnLoud('#dilemma','#hyperrational','hyper-rational%20solution')">hyper-rational solution</a> is to remain silent when playing
+  with another hyper-rational player</li>
+<li>The <a href="javascript:Sidenote.openColumnLoud('#dilemma','#ultrarational','ultra-rational%20solution')">ultra-rational solution</a> is to always remain silent</li>
+</ul>
+</div>
+
+<div id='hyperrational'>
+<h2>Hyper-rational Solution</h2>
+<h3>Objective:</h3>
+<p>The <em>hyper-rational</em> objective is identical to the <a href="javascript:Sidenote.openColumnLoud('#hyperrational','#rational','rational')">rational</a>
+objective. That is, A <em>hyper-rational</em> player&#8217;s objective is to minimize their
+time spent in prison.</p>
+<h3>Defintion of hyper rationality</h3>
+<p>A hyper-rational player is a player who has a perfect understanding of the game,
+and uses a deterministic strategy.</p>
+<h3>Theorem 2:</h3>
+<ul>
+<li>When two hyper-rational players play together, they both remain silent.</li>
+<li>See <a href="javascript:Sidenote.openColumnLoud('#hyperrational','#proof2','Proof%20of%20Theorem%202')">Proof of Theorem 2</a></li>
+</ul>
+<h3>See also:</h3>
+<ul>
+<li>The <a href="javascript:Sidenote.openColumnLoud('#hyperrational','#ultrarational','ultra-rational%20solution')">ultra-rational solution</a></li>
+</ul>
+</div>
+
+<div id='futurework'>
+<h2>Future work</h2>
+<p>We intend to pursue future work along a number of dimensions. We intend to:</p>
+<ol>
+<li>Investigate <a href="javascript:Sidenote.openColumnLoud('#futurework','#partial','partial%20ultra-rationality')">partial ultra-rationality</a></li>
+<li>Investigate ultra-rationality in <a href="javascript:Sidenote.openColumnLoud('#futurework','#other-contexts','other%20contexts')">other contexts</a></li>
+<li>Investigate <a href="javascript:Sidenote.openColumnLoud('#futurework','#alternatives','alternative%20formalizations')">alternative formalizations</a></li>
+<li>Investigate ultra-rationality <a href="javascript:Sidenote.openColumnLoud('#futurework','#experimentally','experimentally')">experimentally</a></li>
+</ol>
+</div>
+
+<div id='other-contexts'>
+<h2>Other contexts</h2>
+<p>In this work, we have only explored the effect of ultra-rationality on
+the prisoner&#8217;s dilemma.</p>
+<p>We intend to explore the effects of ultra-rationality in other economic problems.</p>
+</div>
+
+<div id='discussion'>
+<h2>Discussion</h2>
+<p>We believe that ultra-rationality represents a realistic and desirable
+economics model. It seems obvious and self-evident that real humans have the
+ability to choose their own personal interpretations of reality and have the
+capacity to be compassionate. Compassionate and content prisoners exist.</p>
+<p>Ultra-rational behavior depends on <em>contentedness</em>. If a player can experience
+life joyfully and peacefully regardless of circumstance, then it can behave
+selfishly while at the same time seeking globally optimal solutions.</p>
+<p>Unfortunately, anecdotal evidence suggests that it takes great effort to
+cultivate a subjective state of mind that is free from the experience of penalty.</p>
+</div>
+
+<div id='alternatives'>
+<h2>Alternative formalizations</h2>
+<p>We defined ultra-rationality in terms of two Axioms of Subjective Interpreation
+and a definition of ultra rationality. As we explore ultra rationality in
+other contexts we may find it is beneficial to define ultra rationality
+differently.</p>
+</div>
+
+<div id='ultrarational'>
+<h2>Ultra-rational Solution</h2>
+<p>Here we introduce the concept of ultra-rationality and analyze its strategy.</p>
+<h3>Axioms of Subjective Interpration</h3>
+<p>To employ an ultra rational strategy, we need to add two new axioms to our model:</p>
+<ol>
+<li>Notions of penalty are inherently subjective.</li>
+<li>Players have the power to choose their own personal interpretation of penalty.</li>
+</ol>
+<p>We believe these axioms are realistic.</p>
+<h3>Definition of ultra rationality</h3>
+<ul>
+<li>An ultra-rational player is a type of <a href="javascript:Sidenote.openColumnLoud('#ultrarational','#rational','rational')">rational</a> player. Like a
+rational agent, an ultra-rational agent is selfish.</li>
+<li>The distinguishing characteristic of ultra rationality is that an
+  ultra-rational agent &#8220;cares&#8221; about all other agents equally.
+  We call this attribute of ultra-rational agents &#8220;compassion.&#8221;</li>
+</ul>
+<h3>Objective:</h3>
+<p>As a straightforward consequence of the defintion of ultra-rationality,
+ultra-rational players necessarily seek globally optimal solutions.</p>
+<h3>Theorem 3:</h3>
+<ul>
+<li>An ultra-rational player always produces a globally optimal solution.</li>
+<li>See <a href="javascript:Sidenote.openColumnLoud('#ultrarational','#proof3','Proof%20of%20Theorem%203')">Proof of Theorem 3</a></li>
+</ul>
+</div>
+
+<div id='rational'>
+<h2>Rational Solution</h2>
+<h3>Objective:</h3>
+<p>A <em>rational</em> player&#8217;s objective is to minimize their time spent in prison.</p>
+<h3>Theorem 1:</h3>
+<ul>
+<li>The rational strategy is to always betray the other player.</li>
+<li>See <a href="javascript:Sidenote.openColumnLoud('#rational','#proof1','Proof%20of%20Theorem%201')">Proof of Theorem 1</a></li>
+</ul>
+<h3>See also:</h3>
+<ul>
+<li>The <a href="javascript:Sidenote.openColumnLoud('#rational','#hyperrational','hyper-rational%20solution')">hyper-rational solution</a></li>
+<li>The <a href="javascript:Sidenote.openColumnLoud('#rational','#ultrarational','ultra-rational%20solution')">ultra-rational solution</a></li>
+</ul>
+</div>
+
+<div id='experimentally'>
+<h2>Experimental reserarch</h2>
+<p>We are interested in finding test subjects who embody the characteristics of
+ultra rationality and evaluate their actual performance in realistic games.</p>
+</div>
+
+<div id='proof1'>
+<h2>Proof of Theorem 1</h2>
+<ul>
+<li>Assume you are player <em>A</em> and you want to minimize your time in prison</li>
+<li>If player <em>B</em> defects, your best strategy is to also defect (you therefore
+  serve two years in prison instead of three)</li>
+<li>If player <em>B</em> remains silent, your best strategy is to defect (you therefore
+  serve zero years in prison instead of one)</li>
+</ul>
+</div>
+
+<div id='proof2'>
+<h3>Proof of Theorem 2</h3>
+<ul>
+<li>Assume:<ul>
+<li>You are player <em>A</em>,</li>
+<li>You are hyper-rational, and</li>
+<li>You want to minimize your time in prison</li>
+</ul>
+</li>
+<li>Because you have a perfect understanding of the game, you will know if you are
+  playing with another hyper-rational player.</li>
+<li>You are therefore assured that you will both use the same strategy (
+  because you both have the same understanding of the game and and you both
+  use a deterministic strategy)</li>
+<li>Thus, you will either <em>both defect</em>, or you will <em>both remain silent</em></li>
+<li>Since, the silent strategy yields a superior payoff for youself you remain
+  silent</li>
+<li>The other player follows the same strategy, you both remain silent, and you
+  each receive one year in prison</li>
+</ul>
+</div>
+
+<div id='main'>
+<ul>
+<li><a href="javascript:Sidenote.openColumnLoud('#main','#dilemma','The%20Prisoner&amp;#8217;s%20Dilemma')">The Prisoner&#8217;s Dilemma</a></li>
+<li><a href="javascript:Sidenote.openColumnLoud('#main','#rational','Rational%20solution')">Rational solution</a></li>
+<li><a href="javascript:Sidenote.openColumnLoud('#main','#hyperrational','Hyper-rational%20solution')">Hyper-rational solution</a></li>
+<li><a href="javascript:Sidenote.openColumnLoud('#main','#ultrarational','Ultra-rational%20solution')">Ultra-rational solution</a></li>
+<li><a href="javascript:Sidenote.openColumnLoud('#main','#discussion','Discussion')">Discussion</a></li>
+<li><a href="javascript:Sidenote.openColumnLoud('#main','#futurework','Future%20work')">Future work</a></li>
+</ul>
+</div>
+
+<div id='partial'>
+<h2>Partial ultra-rationality</h2>
+<p>Strict ultra-rationality seems to be both uncommon and difficult to achieve.</p>
+<p>To address these problems we intend to investigate notions of <em>partial</em>
+ultra-rationality. The basic idea is that we belive it is possible for
+players to achieve incremental benefits from following weaker models of ultra
+rationality. We hope to describe formal models of partial
+ultra-rationality that are realistic and representative of real-world economics.</p>
+<p>Towards this end, we intend to espouse the goal of partial ultra-rationality
+in our work. We intend to study and practice partial ultra-rationality and we
+invite all other scholars to collaborate on our research by studying and
+practicing partial ultra-rationality with us.</p>
+<p>We hypothesize that such an approach to research will yield superior research
+products at lower cost.</p>
+</div>
+    </div>
+  </body>
+</html>
+
