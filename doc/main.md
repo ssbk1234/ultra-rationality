@@ -8,6 +8,8 @@ relationship with the Prisoner's Dilemma problem.
 - [Discussion](##discussion)
 - [Future work](##futurework)
 
+This work is dedicated to the public domain.
+
 ~dilemma
 ## The Prisoner's Dilemma
 
