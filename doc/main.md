@@ -7,8 +7,8 @@ relationship with the Prisoner's Dilemma problem.
 - [Ultra-rational solution](##ultrarational)
 - [Discussion](##discussion)
 - [Future work](##futurework)
-
-This work is dedicated to the public domain.
+- This work is dedicated to the public domain.
+- Hosted on [Github](https://github.com/mikegagnon/ultra-rationality/).
 
 ~dilemma
 ## The Prisoner's Dilemma
