@@ -100,28 +100,13 @@ and uses a deterministic strategy.
 
 Here we introduce the concept of ultra-rationality and analyze its strategy.
 
-### Axioms of Subjective Interpration
-To employ an ultra rational strategy, we need to add two new axioms to our model:
-
-1. Notions of penalty are inherently subjective.
-2. Players have the power to choose their own personal interpretation of penalty.
-
-We believe these axioms are realistic.
-
 ### Definition of ultra rationality
 
-* An ultra-rational player is a type of [rational](##rational) player. Like a
-rational agent, an ultra-rational agent is selfish.
-* The distinguishing characteristic of ultra rationality is that an
-  ultra-rational agent "cares" about all other agents equally.
-  We call this attribute of ultra-rational agents "compassion."
-
-### Objective:
-As a straightforward consequence of the defintion of ultra-rationality,
-ultra-rational players necessarily seek globally optimal solutions.
+* An ultra-rational player is "compassionate;" it seeks globally optimal solutions
+* An ultra-rational player is "content;" it does not experience prison time as a penalty
 
 ### Theorem 3:
-- An ultra-rational player always produces a globally optimal solution.
+- When an ultra-rational player plays, the total maximum global penalty is one year in prison
 - See [Proof of Theorem 3](##proof3)
 
 ~proof3
@@ -130,29 +115,24 @@ ultra-rational players necessarily seek globally optimal solutions.
 * Assume:
     * You are player *A*, and
     * You are ultra-rational
-* By the Axioms of Subjective Interpration, you choose not to experience any
-  penalty.
-* Therefore to seek a globally optimal solution, you optimize your strategy for
-  the other player's penalty
+* Being content, you optimize your strategy for the other player's penalty
 * If player *B* defects, your best strategy is to remain silent. In which case
     * Player *B* experiences zero years in prison
     * You experience three years in prison, but do not interpret it as a penalty
     * Thus the total global penalty is zero
 * If player *B* remains silent, your best strategy is to remain silent. In which
   case:
-    * Player *B* experiences one year in prison (which has a maximum subjective
-      penalty of one year in prison)
+    * Player *B* experiences one year in prison (which has a maximum penalty of
+      one year in prison)
     * You experience one year in prison, but do not interpret it as a penalty
 * Thus the total maximum global penalty is one year in prison
-    * This solution is optimal because player *B* makes the choice to experience
-      as much or as little penalty as they desire.
 
 ~discussion
 ## Discussion
 
 We believe that ultra-rationality represents a realistic and desirable
 economics model. It seems obvious and self-evident that real humans have the
-ability to choose their own personal interpretations of reality and have the
+ability to choose their own personal interpretations of punsihment and have the
 capacity to be compassionate. Compassionate and content prisoners exist.
 
 Ultra-rational behavior depends on *contentedness*. If a player can experience
