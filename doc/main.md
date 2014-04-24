@@ -3,7 +3,7 @@ relationship with the Prisoner's Dilemma problem.
 
 - [The Prisoner's Dilemma](##dilemma)
 - [Rational solution](##rational)
-- [Hyper-rational solution](##hyperrational)
+- [Superrational solution](##superrational)
 - [Ultra-rational solution](##ultrarational)
 - [Discussion](##discussion)
 - [Future work](##futurework)
@@ -23,9 +23,11 @@ From the [Wikipedia article](https://en.wikipedia.org/wiki/Prisoner's_dilemma):
 - If *A* betrays *B* but *B* remains silent, *A* will be set free and *B* will serve 3 years in prison (and vice versa)
 - If *A* and *B* both remain silent, both of them will only serve 1 year in prison (on the lesser charge)
 
+
+
 - The [rational solution](##rational) is to always defect
-- The [hyper-rational solution](##hyperrational) is to remain silent when playing
-  with another hyper-rational player
+- The [superrational solution](##superrational) is to remain silent when playing
+  with another super-rational player
 - The [ultra-rational solution](##ultrarational) is to always remain silent
 
 ~rational
@@ -40,7 +42,7 @@ A *rational* player's objective is to minimize their time spent in prison.
 
 ### See also:
 
-- The [hyper-rational solution](##hyperrational)
+- The [superrational solution](##superrational)
 - The [ultra-rational solution](##ultrarational)
 
 ~proof1
@@ -52,35 +54,36 @@ A *rational* player's objective is to minimize their time spent in prison.
 * If player *B* remains silent, your best strategy is to defect (you therefore
   serve zero years in prison instead of one)
 
-~hyperrational
-## Hyper-rational Solution
+~superrational
+## Superrational Solution
 
 ### Objective:
-The *hyper-rational* objective is identical to the [rational](##rational)
-objective. That is, A *hyper-rational* player's objective is to minimize their
+The *superrational* objective is identical to the [rational](##rational)
+objective. That is, A *superrational* player's objective is to minimize their
 time spent in prison.
 
-### Defintion of hyper rationality
-A hyper-rational player is a player who has a perfect understanding of the game,
+### Defintion of superrationality
+A superrational player is a player who has a perfect understanding of the game,
 and uses a deterministic strategy.
 
 ### Theorem 2:
-- When two hyper-rational players play together, they both remain silent.
+- When two superrational players play together, they both remain silent.
 - See [Proof of Theorem 2](##proof2)
 
 ### See also:
 
 - The [ultra-rational solution](##ultrarational)
+- Wikipedia article on [Superrationality](https://en.wikipedia.org/wiki/Superrationality)
 
 ~proof2
 ### Proof of Theorem 2
 
 * Assume:
     * You are player *A*,
-    * You are hyper-rational, and
+    * You are superrational, and
     * You want to minimize your time in prison
 * Because you have a perfect understanding of the game, you will know if you are
-  playing with another hyper-rational player.
+  playing with another superrational player.
 * You are therefore assured that you will both use the same strategy (
   because you both have the same understanding of the game and and you both
   use a deterministic strategy)
