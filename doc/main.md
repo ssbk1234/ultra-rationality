@@ -86,11 +86,11 @@ and uses a deterministic strategy.
     * You want to minimize your time in prison
 * Because you have a perfect understanding of the game, you will know if you are
   playing with another superrational player.
-* You are therefore assured that you will both use the same strategy (
-  because you both have the same understanding of the game and and you both
+* You are therefore assured that you will both use the same strategy (because 
+  you both have the same understanding of the game and and you both
   use a deterministic strategy)
 * Thus, you will either *both defect*, or you will *both remain silent*
-* Since, the silent strategy yields a superior payoff for youself you remain
+* Since the silent strategy yields a superior payoff for yourself, you remain
   silent
 * The other player follows the same strategy, you both remain silent, and you
   each receive one year in prison
@@ -132,7 +132,7 @@ Here we introduce the concept of ultra-rationality and analyze its strategy.
 
 We believe that ultra-rationality represents a realistic and desirable
 economics model. It seems obvious and self-evident that real humans have the
-ability to choose their own personal interpretations of punsihment and have the
+ability to choose their own personal interpretations of punishment and have the
 capacity to be compassionate. Compassionate and content prisoners exist.
 
 Ultra-rational behavior depends on *contentedness*. If a player can experience
